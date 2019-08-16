@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <button type="button" onclick="greetme()"> Let me greet you. </button>
+    <h1>Playing with Objects: a citizen </h1>
+
+    <button type="button" onclick ="characteristics()"> Display Name </button>
+    
+    <script>
+        function characteristics() {
+
+            //alert("Jose");
+            var person = { name: Jose, lastname: Lopez, age: 23 };
+
+
+            var temporary = person.name;
+            window.alert(temporary); 
+            //document.write("hey"); 
+           // console.log("All tests passed"); 
+        }
+
+        function greetme() {
+            document.write("Happy to have you here"); 
+        }
+    </script>
+</body>
+</html>
