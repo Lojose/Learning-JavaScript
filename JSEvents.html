@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h3>We will be playing with events</h3>
+    <button type="button" onclick="displayDate()">Click Me</button>
+    <p  id="time"></p>
+
+
+    <button type="button" onmouseover="displayDate()"> Mouse over me</button>
+
+    <script>
+        function displayDate() {
+            document.getElementById('time').innerHTML = Date(); 
+        }
+    </script>
+</body>
+</html>
